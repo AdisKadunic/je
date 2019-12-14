@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Solway', serif;
+    
+
+}
+.ja{
+    float:left; 
+    width:70%; 
+    margin:10px;
+}
+.te{
+    float:left; 
+    color:blue; 
+    width:20%; 
+    margin:10px
+    
+}
+
+p{
+    color: blue;
+}
+p1{
+    color: red;
+    text-decoration: none;
+}
+h2{
+    text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.header{
+    background: lightgray;
+}
+.text{
+    padding: 10px;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+}
+.text span{
+    padding: 10px;
+}
+.administrator{
+    background: lightseagreen;
+}
+.coordinator{
+    background: lightpink;
+}
+.user{
+    background: lightblue;
+}
+.unknown{
+    background: red;
+}

@@ -1,0 +1,19 @@
+.moj-paragraf{
+    background: lightblue;
+    font-family: 'Courier New';
+    border-left: 10px solid black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left!important;
+}
+.klijentov-paragra{
+    background: yellow;
+    font-family: 'Times New Roman';
+    text-align: right;       
+    border-left: 0px solid rgb(0, 0, 0);
+    border-right:  20px solid rgb(0, 0, 0);
+    padding-left: 0;
+    padding-right: 20px;
+}

@@ -1,0 +1,13 @@
+h1{padding: 20px;}
+p{
+    padding: 10px;
+     margin:20px;
+     background: red;
+      color: white;}
+ul {
+    background:lightgreen
+}
+h1{
+    border: 1px solid lightgrey;
+    color:lightcoral;
+}

@@ -1,0 +1,44 @@
+<?php
+
+    $current_data = date('d.m.Y');
+    $current_time = date('h');
+    $age = 25;
+    $name = 'Jhon';
+
+    $gender = 'm';
+    $time = ',prning';
+    $time_message = $user_message = "";
+    
+
+if($current_time > 0 && $current_time < 12){
+    $time_message = 'morning';
+}else if($current_time > 12 && $current_time <= 18){
+    $time_message = 'afternoon';
+}else if($current_time > 18 && $current_time < 0){
+    $time_message = 'evning';
+}else{
+    $time_message = 'good day';
+}
+
+switch($gender){
+    case 'm':
+        $user_message = ( ($age < 18) ? 'boy' : 'man' );
+    break;
+    case 'f':
+        $user_message = (($age < 18) ? 'girl' : 'woman');
+    break;
+    default:
+        $user_message = 'someone';
+    break;
+}
+
+
+echo "good {$time_message} {$user_message}, " . $name . ". welcome to our site!<br>";
+echo " your age is " . $age . ".<br>";
+echo "current date "  . $current_data  . "<br>";
+
+
+//$broj = (3 < 5) ? 4 : 5;
+//echo $broj;
+
+?>
